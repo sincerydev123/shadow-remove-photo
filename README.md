@@ -1,7 +1,7 @@
 # GAN-based lighting correction on portrait images
 ![](images/readme_image.png)
 
-This is the project page for "Unsupervised Shadow Removal and Relighting for Webcam Portrait Images with GANs" (paper submission in progress). We propose a framework for lighting correction on portrait images. This work is based on existing GAN-based approaches for portrait image generation and styletransfer.
+This is the project page for "Unsupervised Shadow Removal and Relighting for Webcam Portrait Images with GANs" (paper submission in progress). I propose a framework for lighting correction on portrait images. This work is based on existing GAN-based approaches for portrait image generation and styletransfer.
 
 The basic idea of this work is the following:
 1. Project an image into the StyleGAN2 latent space to get the latent vector
@@ -63,7 +63,3 @@ you set it to a higher value. Depending on the dataset you can also try to choos
 ## Known problems ##
 * Inversion quality can vary depending on you dataset. If you are using your own images you will notice that there 
   is quite a big distortion. You can try to train your own generator or encoder model to better suit your own dataset.
-
-## Acknowledgements ##
-This work was part of my Master thesis at TU Dortmund University. I would like to thank my mentor aswell as all of 
-the people that were involved.
